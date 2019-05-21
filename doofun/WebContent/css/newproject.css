@@ -1,0 +1,458 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+form#newproject {
+	font-family: nanumsquareround;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+form#newproject .preview {
+	margin: 50px 50px 30px 30px;
+	width: 40%;
+	height: 700px;
+	overflow-y: scroll;
+}
+
+form#newproject fieldset#content {
+	border: none;
+}
+
+form#newproject fieldset#giftlist {
+	border: none;
+}
+
+#gift1, #gift2, #gift3 {
+	visibility: hidden;
+	line-height: 150%;
+	width: 500px;
+	float: center;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	color: dimgray;
+}
+
+form#newproject fieldset#content h1 {
+	font-weight: normal;
+	float: left;
+	font-family: Montserrat;
+	text-align: left;
+	font-size: 12px;
+	color: Silver;
+}
+
+.tabmenu {
+	width: 700px;
+	align-items: center;
+}
+
+.tabmenu label {
+	display: inline-block;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+	width: 40%;
+	line-height: 20px;
+	background-color: WHITE;
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 0 0;
+	color: DimGray;
+	border-width: 1px 1px 0 0;
+	cursor: pointer;
+}
+
+.tabmenu input:nth-of-type(1):checked ~ label:nth-of-type(1) {
+	background-color: #fcfcfc;
+	color: BLACK;
+}
+
+.tabmenu input:nth-of-type(2):checked ~ label:nth-of-type(2) {
+	background-color: #fcfcfc;
+	color: BLACK;
+}
+
+.tabmenu>* {
+	display: none;
+}
+
+.tabmenu input:nth-child(1):checked ~ .tab1_content, .tabmenu input:nth-child(2):checked 
+	~ .tab2_content {
+	display: block;
+}
+
+.tabmenu .tab1_content, .tabmenu .tab2_content {
+	padding: 32px;
+	border: 1px solid #ccc;
+	background-color: white;
+	height: 600px;
+}
+
+.tabmenu label#tab1:nth-of-type(1):hover {
+	font-weight: bold;
+	background-color: #fff9ee;
+}
+
+.tabmenu label#tab2:nth-of-type(2):hover {
+	font-weight: bold;
+	background-color: #fff9ee;
+}
+
+table#overview {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+table#overview th {
+	font-weight: normal;
+	font-family: nanumsquareround;
+	font-size: 14px;
+	color: DimGray;
+	width: 100px;
+	text-align: center;
+}
+
+table#overview td {
+	font-weight: normal;
+	font-family: nanumsquareround;
+	font-size: 14px;
+	color: DimGray;
+	width: 180px;
+}
+
+input[type=reset].newreset {
+	background-color: #f1a9a2;
+	border: none;
+	color: white;
+	padding: 12px 25px;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+input[type="button"].projectsave {
+	background-color: #fe6f61;
+	border: none;
+	color: white;
+	padding: 12px 25px;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+input[type="button"].cancel {
+	background-color: Silver;
+	border: none;
+	color: white;
+	padding: 12px 25px;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+input[type="button"].upload {
+	background-color: #fe6f61;
+	border: none;
+	color: white;
+	padding: 6px 12px;
+	text-decoration: none;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+fieldset#gift {
+	font-weight: normal;
+	font-family: nanumsquareround;
+	font-size: 14px;
+	border: none;
+	width: 100%;
+	height: 80px;
+	float: left;
+}
+
+fieldset#giftlist
+#giftlist1_price, #giftlist2_price, #giftlist3_price, #giftlist1_name,
+	#giftlist2_name, #giftlist3_name {
+	width: 200px;
+	margin-left: 5px;
+	height: 25px;
+	text-align: left;
+	border: none;
+	font-size: 12px;
+	color: DimGray;
+	background-color: white;
+}
+
+.previewtab {
+	width: 700px;
+	align-items: center;
+}
+
+.previewtab label {
+	display: inline-block;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+	width: 28%;
+	line-height: 20px;
+	background-color: WHITE;
+	border: 1px solid #ccc;
+	border-radius: 3px 3px 0 0;
+	color: DimGray;
+	border-width: 1px 1px 0 0;
+	cursor: pointer;
+}
+.previewtab input:nth-of-type(1):checked ~ label:nth-of-type(1) {
+	background-color: #fcfcfc;
+	color: BLACK;
+}
+
+.previewtab input:nth-of-type(2):checked ~ label:nth-of-type(2) {
+	background-color: #fcfcfc;
+	color: BLACK;
+}
+
+.previewtab input:nth-of-type(3):checked ~ label:nth-of-type(3) {
+	background-color: #fcfcfc;
+	color: BLACK;
+}
+.previewtab>* {
+	display: none;
+}
+
+.previewtab input:nth-child(1):checked ~ .tab3_content, .previewtab input:nth-child(2):checked ~ .tab4_content, .previewtab input:nth-child(3):checked ~  .tab5_content {
+	display: block;
+}
+
+.previewtab .tab3_content, .previewtab .tab4_content, .previewtab .tab5_content  {
+	padding: 32px;
+	background-color: white;
+	height: 600px;
+}
+
+.previewtab label#tab3:nth-of-type(1):hover {
+	font-weight: bold;
+	background-color: #fff9ee;
+}
+
+.previewtab label#tab4:nth-of-type(2):hover {
+	font-weight: bold;
+	background-color: #fff9ee;
+}
+
+.previewtab label#tab5:nth-of-type(3):hover {
+	font-weight: bold;
+	background-color: #fff9ee;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	font-weight: bold;
+	color: red;
+}
+
+.text {
+	visibility: hidden;
+	width: 150px;
+	background-color: #4e9ca9;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	top: 30px;
+	margin-left: -60px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+
+.text:after {
+	content: "";
+	border-width: 5px;
+	border-style: solid;
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	margin-left: -5px;
+}
+
+.tooltip:hover .text {
+	visibility: visible;
+	opacity: 1;
+}
+
+input[type="button"].funding{
+    background-color: #fe6f61;
+    padding-right: 30%;
+    font-weight:bold;
+    float: center;
+	width: 520px;
+	height: 50px;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="button"].funding:hover{
+    background-color:#ff4634;
+    text-decoration:none;
+}
+input[type="button"].share{
+    background-color: Gainsboro;
+    padding-right: 30%;
+    float: center;
+    font-weight:bold;
+	width: 100px;
+	height: 50px;
+    border: none;
+    color: DimGray;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="button"].share:hover{
+    background-color: Silver;
+    color:black;
+    text-decoration:none;
+}
+
+
+#category{
+	text-align: center;
+	font-size : 12px;
+	width: auto;
+	background-color: LightGray;
+	color: white;
+	padding: 7px 7px 7px 7px;
+}
+
+.plinfo{
+	font-size: 12px; 
+	line-height: 150%; 
+	float: center; 
+	text-align: center; 
+	display: inline-block; 
+	padding: 5px 10px 10px 10px; 
+	color: dimgray;
+}
+
+#label{
+	font-size: 12px;
+}
+
+#value1, #value2{
+	color: #262626; 
+	font-size: 25px;
+}
+#input_dday{
+	color: #262626;
+	font-size: 25px
+}
+#percent_value{
+	font-size : 20px;
+	color: black;
+}
+
+.Graph{
+	white-space:nowrap; 
+	line-height:normal;
+}
+#Bar{ 
+	display:inline-block; 
+	border-radius: 150px; 
+	width:400px; 
+	height:3px; 
+	margin:0 5px 0 0; 
+	background:#e9e9e9; 
+	font-size:11px;
+}
+#Percent{ 
+	display:inline-block; 
+	border-radius: 150px; 
+	height:3px; 
+	background: #430201; 
+	margin:-1px;
+}
+#sum{
+	font-weight: 700; 
+	color: #4e9ca9; 
+	font-size: 40px;
+}
+
+input[type="button"].selfunding {
+	background-color: #f1a9a2;
+	color: white;
+	width: 480px;
+	height: 23px;
+	border: none;
+	text-decoration: none;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#gift_count{
+	font-size: 13px;
+	float:left;
+	text-align: center;
+	color: black;
+}
+
+#gift1, #gift2, #gift3 {
+	visibility: visible;
+	line-height: 150%;
+	width: 500px;
+	float: center;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	background-color: #f2f2f2;
+}
+#input_gift1_price, #input_gift2_price, #input_gift3_price{
+	font-size: 30px;
+	font-weight: bolder;
+	color: black;
+}
+#input_gift1_name, #input_gift2_name, #input_gift3_name{
+	font-size: 15px;
+}
+
+.community{
+	overflow: auto;
+    background-color: #f2f2f2;
+    padding-right: 30%;
+    font-weight:bold;
+	height: 300px;
+    border: none;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 20px;
+}

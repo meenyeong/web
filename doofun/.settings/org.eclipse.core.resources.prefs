@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/css/admin.css=UTF-8
+encoding//src/config/ControllerConfig.java=UTF-8
+encoding//src/config/MvcConfig.java=UTF-8
+encoding//src/config/ServiceConfig.java=UTF-8
+encoding//src/controller=UTF-8
+encoding//src/controller/U_bWriteCtrl.java=UTF-8
+encoding//src/dao/AdProjectDao.java=UTF-8
+encoding//src/dao/BoardDao.java=UTF-8
+encoding//src/dao/ProjectDao.java=UTF-8
+encoding//src/dao/UserDao.java=UTF-8
+encoding//src/exception=UTF-8
+encoding//src/service=UTF-8
+encoding//src/vo=UTF-8
+encoding/<project>=UTF-8

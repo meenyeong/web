@@ -1,0 +1,120 @@
+
+body{
+	font-family: nanumsquareround;;
+    width:100%;
+    height:100%;
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+
+#wrap{
+    position:fixed;
+    width:100%;
+    text-align:left;
+    margin:0;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: #4e9ca9;
+    background-repeat:repeat-y;    
+    height:70px; 
+    z-index: 3;
+}
+
+.clear{
+	clear:both;
+}
+
+#logo{
+	color: #f1a9a2;
+	font-family: Kaushan Script;
+	font-size: 30px;
+    float:left;
+    width:250px;
+    min-height:80px;
+    margin:4px 0 0 10px;
+}
+
+#con, #input, #preview{
+	top: 120px;
+	position: relative;
+}
+nav#category_menu{
+	float:right;
+    margin:20px 50px 0 0;
+    font-family: Montserrat;
+}
+
+nav#category_menu ul{
+    list-style:none; 
+}
+
+nav#category_menu ul li{
+	display:block; 
+    height:30px;
+    weight:50px;
+    float:left;
+    font-family: Montserrat;
+}
+nav#category_menu a{
+    text-decoration:none;
+    font-size: 15px;
+    display:inline-block;
+    text-align: center;
+    width:120px;
+    color: white;
+}
+
+nav#category_menu a:hover{
+    color:White;
+    text-decoration:none;
+}
+
+a{
+    color:gray;
+    text-decoration:none;
+}
+a:hover{
+    color:gray;
+    text-decoration:none;
+}
+#menu_info{
+   position: fixed; 
+   height: 100%;
+   z-index: 3;
+   width: 230px;
+   top: calc(70px);
+   left:calc(100% - 230px);
+   background-color: #022528;
+}  
+div #menu_info{
+	float:right;
+    margin:0 50px 0 0;
+    font-family: Montserrat;
+}
+
+div #menu_info ul{
+    list-style:none; 
+}
+
+div #menu_info ul li{
+	display:block; 
+    height:50px;
+    width:230px;
+    float: center;
+    font-family: Montserrat;
+}
+div #menu_info a{
+    text-decoration:none;
+    font-size: 15px;
+    display:inline-block;
+    text-align: center;
+    width:180px;
+    color: white;
+}
+
+div #menu_info a:hover{
+    color:White;
+    text-decoration:none;
+}
+ 

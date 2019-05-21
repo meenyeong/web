@@ -1,0 +1,97 @@
+table #faq {
+	width: 70%;
+	margin: 20px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	width: 70%;
+}
+
+#faq td {
+	border-bottom: 1px dashed gray;
+	padding: 10px;
+	td: nth-child(1){width: 250px;}
+	td: nth-child(2){width: 250px;}
+	td: nth-child(3){width: 250px;}
+	td: nth-child(4){width: 250px;}
+	td: nth-child(5){width: 250px;}
+	td: nth-child(6){width: 250px;}
+}
+article {
+	text-align: center;
+}
+
+#dfaq {
+	width: 80%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+
+#q, #moreq {
+	width: 70%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6;		
+}
+
+body {
+	font-family: nanumsquareround;;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.btn_email, .btn_list {
+	font-weight: bold;
+	text-decoration: none;
+	font-family: nanumsquareround;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 18px;
+	color: #ffffff;
+	width: 90px;
+	height: 35px;
+	border-width: 1px;
+	border-style: solid;
+	margin-auto;
+}
+
+.btn_email {
+	-moz-border-radius: 0 0 0 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	background-color: LightCoral;
+	border-color: LightCoral;
+	margin-left: 33%;
+}
+
+.btn_list {
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	background-color: LightCoral;
+	margin-left: 15%;
+	margin-top: 30px;
+}

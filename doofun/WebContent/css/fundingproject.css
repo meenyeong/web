@@ -1,0 +1,199 @@
+body{
+	font-family: nanumsquareround;
+	background-color: #f7f7f7;
+}
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #022528;
+	justify-content: center;
+}
+#header2{
+	width: 100%;
+	height: 120px;
+	background-color: #022528;
+	justify-content: center;
+}
+
+#head{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 40px;
+	color:white;
+}
+#head2{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	padding-top: 25px;
+	color:white;
+}
+#contents{
+	margin-top: 20px;
+}
+
+#only_funding{
+	margin: 20px;
+	padding: 50px;
+	height: 150px;
+}
+#only_funding:hover{
+	background-color: #d9d9d9;
+}
+#only{
+	font-family: nanumsquareround;
+	border: none;
+	color:black; 
+	width: 400px;
+	background-color:transparent;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#only:focus {
+	border:solid 1px #4e9ca9;
+	color: #4e9ca9;
+	border-radius: 5px;
+}
+
+#comment1{
+	font-size: 13px;
+	color: #4e9ca9;
+}
+
+#gift1_funding{
+	margin: 20px;
+	padding: 50px;
+	height: 150px;
+}
+#gift1_funding:hover{
+	background-color: #d9d9d9;
+}
+#gift1{
+	font-family: nanumsquareround;
+	border: none;
+	color:black; 
+	width: 400px;
+	background-color:transparent;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#gift1:focus {
+	border:solid 1px #4e9ca9;
+	color: #4e9ca9;
+	border-radius: 5px;
+}
+
+#comment2{
+	font-size: 13px;
+	color: #4e9ca9;
+}
+
+#gift2_funding{
+	margin: 20px;
+	padding: 50px;
+	height: 150px;
+}
+#gift2_funding:hover{
+	background-color: #d9d9d9;
+}
+#gift2{
+	font-family: nanumsquareround;
+	border: none;
+	color:black; 
+	width: 400px;
+	background-color:transparent;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#gift2:focus {
+	border:solid 1px #4e9ca9;
+	color: #4e9ca9;
+	border-radius: 5px;
+}
+
+#comment3{
+	font-size: 13px;
+	color: #4e9ca9;
+}
+
+#gift3_funding{
+	margin: 20px;
+	padding: 50px;
+	height: 150px;
+}
+#gift3_funding:hover{
+	background-color: #d9d9d9;
+}
+#gift3{
+	font-family: nanumsquareround;
+	border: none;
+	color:black; 
+	width: 400px;
+	background-color:transparent;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#gift3:focus {
+	border:solid 1px #4e9ca9;
+	color: #4e9ca9;
+	border-radius: 5px;
+}
+
+#comment4{
+	font-size: 13px;
+	color: #4e9ca9;
+}
+@keyframes horizontal {         
+        0% {margin-left: 9px;}
+        50% {margin-left: 20px;}
+        100% {margin-left: 9px;}
+}
+
+.go_funding{
+	position: relative; 
+}
+.go_funding #btn {
+	position: absolute;
+	animation: horizontal 0.7s ease-in-out infinite; 
+}
+
+#pay_content {
+	font-family: nanumsquareround;
+	justify-content: center;
+	text-align: center;
+}
+
+#pay{
+	margin: auto;
+    background-color: Gainsboro;
+    padding-right: 30%;
+    font-weight:bold;
+	width: 70%;
+	height: 100px;
+    border: none;
+    color: black;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#pay2{
+	margin-top: 16px;
+	text-align: center;
+	font-size: 14px;
+}
+#pay2 img {vertical-align:-20px;}
+
+#pay:hover{
+	weight: 70%;
+	vertical-align: middle;
+    background-color: Silver;
+    text-decoration:none;
+}
